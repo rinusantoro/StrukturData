@@ -42,12 +42,12 @@ void cetak()
         }
 
         int i = 0;
-        //for(i = top; i >= 0; i--)
-        //       cout << stack[i] << endl;
+        for(i = top; i >= 0; i--)
+               cout << stack[i] << endl;
 
         // kalo mau dicetak dari yang pertama masuk pakai script dibawah
-        for(i = 0; i <= top; i++)
-              cout << stack[i] << endl;
+        //for(i = 0; i <= top; i++)
+        //      cout << stack[i] << endl;
 }
 
 int main()
