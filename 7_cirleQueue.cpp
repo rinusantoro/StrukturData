@@ -8,11 +8,11 @@ int queue[10], i, head=-1, tail=-1, enqueue, pil, urut=0, tmp;
 do {
 system("pause");
 system("cls");
-printf("1. INSERT ");
-printf("2. DELETE ");
-printf("3. CETAK ANTRIAN ");
-printf("4. QUIT ");
-printf("Silahkan masukkan pilihan anda : ");
+printf("1. INSERT \n");
+printf("2. DELETE \n");
+printf("3. CETAK ANTRIAN \n");
+printf("4. QUIT \n");
+printf("Silahkan masukkan pilihan anda : \n");
 scanf("%d", &pil);
 printf(" ");
 if(pil==1) {
